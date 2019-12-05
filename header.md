@@ -1,6 +1,6 @@
 ### Overview
 
-Welcome to the OpenAQ API! This API is used to power various [tools built by the community](https://openaq.org/#/community) as well as [openaq.org](https://openaq.org).
+Welcome to the OpenAQ API! This API is used to power various [tools built by the community](https://openaq.org/#/community) as well as [openaq.org](https://openaq.org). Want to access data older than 90 days? Read [this explainer](https://medium.com/@openaq/how-in-the-world-do-you-access-air-quality-data-older-than-90-days-on-the-openaq-platform-8562df519ecd) on how to use AWS Athena for historical data access.
 
 If you have any problems, please create an issue on [GitHub](https://github.com/openaq/openaq-api/issues)!
 
@@ -14,4 +14,4 @@ For the most up to date license information, please see [here](https://github.co
 
 ### Data Retention to the API vs S3 Access
 
-Currently the API only supports a rolling 90 day archive of the data. For access to the full dataset, you can access directly S3 by going [here](https://openaq-fetches.s3.amazonaws.com/index.html) or [here](https://openaq-data.s3.amazonaws.com/index.html).
+Currently the API only supports a rolling 90 day archive of the data. For access to the full dataset, you can access directly S3 by going [here](https://openaq-fetches.s3.amazonaws.com/index.html) or [here](https://openaq-data.s3.amazonaws.com/index.html). Read [this explainer](https://medium.com/@openaq/how-in-the-world-do-you-access-air-quality-data-older-than-90-days-on-the-openaq-platform-8562df519ecd) on how to use AWS Athena for historical data access.
